@@ -41,6 +41,10 @@ header h1{
     border: solid white 2px;
     background-color: black;
     position: absolute;
+    left: 50%;
+    top: 0%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 body{
