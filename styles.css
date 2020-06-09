@@ -40,9 +40,7 @@ header h1{
     border: 5px;
     border: solid white 2px;
     background-color: black;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    position: absolute;
 }
 
 body{
