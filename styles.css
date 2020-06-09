@@ -40,7 +40,7 @@ header h1{
     border: 5px;
     border: solid white 2px;
     background-color: black;
-    position: absolute;
+    position: top;
     left: 50%;
     top: 30%;
     margin-right: -50%;
