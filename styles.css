@@ -1,0 +1,52 @@
+header header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px ;
+    padding-bottom: 10px;
+}
+
+body{
+    background-color: rgb(138, 164, 179);
+}
+
+button{
+    background-color: black;
+    border: solid white 5px;
+    width: 200px;
+}
+
+a{
+    color: white;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  border: solid white 5px;
+  color: white;
+  text-align: center;}
+
+header img{
+    width: 100%;
+    border: solid white 5px;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    width: 60%;
+    border: 5px;
+    border: solid white 2px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+body{
+    text-align: left 4%;
+}
