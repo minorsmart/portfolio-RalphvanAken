@@ -42,7 +42,7 @@ header h1{
     background-color: black;
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 10px;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
