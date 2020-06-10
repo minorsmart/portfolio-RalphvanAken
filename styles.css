@@ -61,6 +61,12 @@ body{
   	margin-bottom: 25px;
   	margin-left: 10%;
   	margin-top: 25px;
+    button{
+    background-color: black;
+    border: white;
+    width: 30%;
+    height: 50px;
+}
 }
 
 .container {
