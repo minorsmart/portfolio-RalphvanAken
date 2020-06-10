@@ -49,12 +49,10 @@ header h1{
 
 body{
     text-align: left;
+    p{margin-left: 3%;}
+    h2{margin-left: 5%;}
 }
 
-p{
-    margin-left: 3%;
-}
 
-h2{
-    margin-left: 5%;
-}
+
+
