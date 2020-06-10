@@ -50,3 +50,11 @@ header h1{
 body{
     text-align: left;
 }
+
+p{
+    margin-left: 5%;
+}
+
+h2{
+    margin-left: 6%;
+}
