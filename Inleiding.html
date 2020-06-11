@@ -53,6 +53,28 @@
             <p>Woonplaats: Etten (GLD)</p>	
             <img src="Images/37656569_1080274015464273_8319693042122489856_o.jpg" style="width:100%">
  	 	</div></div>
+        
+        <h3>API</h3>
+                  <h6>
+                    Covid-19 cijfers in the 
+                    <div id="land"></div>
+                    </h6>
+                    Het totale aantal doden in Nederland:
+                    <div id="doden"></div>
+                    <script lang="text/javascript">
+                      fetch('https://api.covid19api.com/summary')
+                    .then(function(resp) {return resp.json() }) // Convert data to json
+                    .then(function(data) {
+                    console.log(data);
+                    console.log(data.Countries[119].Country);
+                    console.log(data.Countries[119].TotalDeaths);
+                    document.getElementById("land").innerHTML = (data.Countries[119].Country);
+                    document.getElementById("doden").innerHTML = (data.Countries[119].TotalDeaths);
+                    })
+                    .catch(function()   {   // catch any errors
+                    
+                    });
+                    </script>
          
         <div class="polaroid">
   		<div class="container">
